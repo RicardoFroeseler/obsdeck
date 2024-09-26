@@ -1,0 +1,39 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título da página */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container principal para os overlays */
+.overlay-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cada janela de overlay */
+.overlay-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Largura da janela */
+    text-align: center;
+}
+
+/* Estilos para os iframes */
+.overlay-frame {
+    width: 400px;
+    height: 300px; /* Altura da janela */
+    border: none;
+}
